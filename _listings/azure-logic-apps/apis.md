@@ -29,7 +29,7 @@ apis:
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-agreementname-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
