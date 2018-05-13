@@ -35,17 +35,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get-postman.md
-- name: VersaPay View Sent Agreements
-  description: View sent agreements.
+- name: VersaPay View Received Agreements
+  description: View received agreements.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-sent-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-received-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-sent-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-received-get-postman.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
