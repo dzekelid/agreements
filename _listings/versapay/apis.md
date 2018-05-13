@@ -35,19 +35,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get-postman.md
-- name: VersaPay Revoke an Agreement
-  description: Revoke an *approved* agreement for your account by supplying an agreement's
-    token attribute. The agreement's creator will no longer be able to debit your
-    account using this agreement.
+- name: VersaPay Debit Agreement Hosted Checkout
+  description: |-
+    Clients, customers, or donors, for instance, can initiate a pre-authorized debit agreement by clicking a link on your website or in an email.
+    <br>
+    `https://secure.versapay.com/authorize?api_token={your_api_token}&message={explanation_of_what_this_is_for}`
+    <br>
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-revoke-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-revoke-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get-postman.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
