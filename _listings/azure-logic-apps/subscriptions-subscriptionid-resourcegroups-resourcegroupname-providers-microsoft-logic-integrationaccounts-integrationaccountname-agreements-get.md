@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LogicManagementClient
-  description: REST API for Azure Logic Apps.
+  title: Azure Logic Apps API Agreements List By Integration Accounts
+  description: Gets a list of integration account agreements.
   version: 1.0.0
 host: management.azure.com
 basePath: /
