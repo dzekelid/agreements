@@ -35,17 +35,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get-postman.md
-- name: VersaPay Cancel an Agreement
-  description: Cancel an agreement.
+- name: VersaPay Reject an Agreement
+  description: Reject a *pending* agreement by supplying an agreement's *token* attribute
+    and providing a *rejection_reason*.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-cancel-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-reject-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-cancel-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-reject-post-postman.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
