@@ -13,9 +13,9 @@ tags:
 - Stack Network
 - Microsoft
 - iPaaS
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/agreements/master/_listings/azure-logic-apps/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Logic Apps API
@@ -29,7 +29,9 @@ apis:
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-agreementname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
