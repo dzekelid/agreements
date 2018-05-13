@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LogicManagementClient
-  description: REST API for Azure Logic Apps.
+  title: Azure Logic Apps API Agreements Delete
+  description: Deletes an integration account agreement.
   version: 1.0.0
 host: management.azure.com
 basePath: /
