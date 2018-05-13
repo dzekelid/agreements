@@ -32,17 +32,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-agreementname-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-agreementname-delete-postman.md
-- name: Azure Logic Apps API Agreements List By Integration Accounts
-  description: Gets a list of integration account agreements.
+- name: Azure Logic Apps API Agreements Get
+  description: Gets an integration account agreement.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
   humanURL: https://azure.microsoft.com/en-us/services/logic-apps/
   baseURL: http:://management.azure.com//
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-agreementname-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-agreements-agreementname-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
