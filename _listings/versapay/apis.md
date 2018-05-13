@@ -32,9 +32,7 @@ apis:
   tags: Agreements
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-received-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-received-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/api-debit-agreements-token-approve-post.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
