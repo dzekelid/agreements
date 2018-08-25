@@ -19,24 +19,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/debit_agreements:
-    post:
-      summary: Create an Agreement
-      description: Create an agreement.
-      operationId: createAgreement
-      x-api-path-slug: apidebit-agreements-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Create
-      - ""
-      - Agreementss
   /api/debit_agreements/sent:
     get:
       summary: View Sent Agreements
@@ -175,4 +157,22 @@ paths:
       - Agreements
       - Hosted
       - Checkout
+  /api/debit_agreements:
+    post:
+      summary: Create an Agreement
+      description: Create an agreement.
+      operationId: createAgreement
+      x-api-path-slug: apidebit-agreements-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Create
+      - ""
+      - Agreementss
 ---

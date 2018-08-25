@@ -21,24 +21,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/debit_agreements:
-    post:
-      summary: Create an Agreement
-      description: Create an agreement.
-      operationId: createAgreement
-      x-api-path-slug: apidebit-agreements-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Create
-      - ""
-      - Agreementss
   /api/debit_agreements/sent:
     get:
       summary: View Sent Agreements
@@ -144,6 +126,57 @@ paths:
       tags:
       - Revoke
       - Agreements
+  /authorize:
+    get:
+      summary: Debit Agreement Hosted Checkout
+      description: |-
+        Clients, customers, or donors, for instance, can initiate a pre-authorized debit agreement by clicking a link on your website or in an email.
+        <br>
+        `https://secure.versapay.com/authorize?api_token={your_api_token}&message={explanation_of_what_this_is_for}`
+        <br>
+      operationId: clients-customers-or-donors-for-instance-can-initiate-a-preauthorized-debit-agreement-by-clicking-a-
+      x-api-path-slug: authorize-get
+      parameters:
+      - in: query
+        name: api_token
+        description: A valid API token generated from your account
+      - in: query
+        name: message
+        description: A message for the user describing the pre-authorized debit agreement
+      - in: query
+        name: reference
+        description: Extra data (max 255 characters)
+      - in: query
+        name: return_to
+        description: A url which will displayed to the user to return to your website
+          after they finish the Signup and Confirmation
+      responses:
+        200:
+          description: OK
+      tags:
+      - Debit
+      - ""
+      - Agreements
+      - Hosted
+      - Checkout
+  /api/debit_agreements:
+    post:
+      summary: Create an Agreement
+      description: Create an agreement.
+      operationId: createAgreement
+      x-api-path-slug: apidebit-agreements-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Create
+      - ""
+      - Agreementss
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
