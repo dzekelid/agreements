@@ -11,40 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Lykke
-  x-api-slug: lykke
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: Agreements
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io
