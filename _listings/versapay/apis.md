@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versa
 x-kinRank: "9"
 x-alexaRank: "410909"
 tags: Agreements
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
 apis:
@@ -43,6 +43,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementsreceived-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementsreceived-get-openapi.md
+- name: VersaPay API Reference - Approve an Agreement
+  x-api-slug: apidebit-agreementstokenapprove-post
+  description: Approve an agreement.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementstokenapprove-post-openapi.md
 - name: VersaPay API Reference - Cancel an Agreement
   x-api-slug: apidebit-agreementstokencancel-post
   description: Cancel an agreement.
@@ -102,6 +113,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/authorize-get-openapi.md
+- name: VersaPay API Reference - Create an Agreement
+  x-api-slug: apidebit-agreements-post
+  description: Create an agreement.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreements-post-openapi.md
 - name: VersaPay API Reference - View Received Agreements
   x-api-slug: apidebit-agreementsreceived-get
   description: View received agreements.
@@ -128,6 +150,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementssent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementssent-get-openapi.md
+- name: VersaPay API Reference - Approve an Agreement
+  x-api-slug: apidebit-agreementstokenapprove-post
+  description: Approve an agreement.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementstokenapprove-post-openapi.md
 - name: VersaPay API Reference - Cancel an Agreement
   x-api-slug: apidebit-agreementstokencancel-post
   description: Cancel an agreement.
@@ -170,6 +203,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementstokenrevoke-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementstokenrevoke-post-openapi.md
+- name: VersaPay API Reference - Create an Agreement
+  x-api-slug: apidebit-agreements-post
+  description: Create an agreement.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreements-post-openapi.md
 - name: VersaPay API Reference - View Received Agreements
   x-api-slug: apidebit-agreementsreceived-get
   description: View received agreements.
@@ -196,6 +240,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementssent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementssent-get-openapi.md
+- name: VersaPay API Reference - Approve an Agreement
+  x-api-slug: apidebit-agreementstokenapprove-post
+  description: Approve an agreement.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/versapay/apidebit-agreementstokenapprove-post-openapi.md
 - name: VersaPay API Reference - Cancel an Agreement
   x-api-slug: apidebit-agreementstokencancel-post
   description: Cancel an agreement.

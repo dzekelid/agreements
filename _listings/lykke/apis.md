@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Agreements
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Add API Clienttrading Termsofuse Margin Agree
+  x-api-slug: apiclienttradingtermsofusemarginagree-post
+  description: Add api clienttrading termsofuse margin agree.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
+- name: Wallet_Api - Add API Clienttrading Termsofuse Margin Agree
+  x-api-slug: apiclienttradingtermsofusemarginagree-post
+  description: Add api clienttrading termsofuse margin agree.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
+- name: Wallet_Api - Add API Clienttrading Termsofuse Margin Agree
+  x-api-slug: apiclienttradingtermsofusemarginagree-post
+  description: Add api clienttrading termsofuse margin agree.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/agreements/master/_listings/lykke/apiclienttradingtermsofusemarginagree-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io
